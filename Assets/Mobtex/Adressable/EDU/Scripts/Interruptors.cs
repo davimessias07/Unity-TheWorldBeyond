@@ -7,6 +7,10 @@ public class Interruptors : MonoBehaviour
     [SerializeField]
     private Animator _Animation;
 
+    [SerializeField]
+    private GameObject OvrCamera;
+
+
     private bool isOff = false;
 
     public void AnimationInterruptor()
@@ -25,6 +29,7 @@ public class Interruptors : MonoBehaviour
     {
         {
          _Animation.SetTrigger("ON");
+         OvrCamera.SetActive(true);
         }
         isOff = true; 
     } 
@@ -33,6 +38,7 @@ public class Interruptors : MonoBehaviour
     {
         {
           _Animation.SetTrigger("OFF");
+          OvrCamera.SetActive(false);
         }  
         isOff = false; 
          
