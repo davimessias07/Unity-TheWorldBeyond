@@ -15076,7 +15076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Interactable: {fileID: 0}
+  m_Interactable: {fileID: 9014832165306101722}
   m_PokeCollider: {fileID: 0}
   m_PokeConfiguration:
     m_UseConstant: 1
