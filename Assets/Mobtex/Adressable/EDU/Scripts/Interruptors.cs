@@ -29,7 +29,7 @@ public class Interruptors : MonoBehaviour
     {
         {
          _Animation.SetTrigger("ON");
-         OvrCamera.SetActive(true);
+         OvrCamera.SetActive(false);
         }
         isOff = true; 
     } 
@@ -38,7 +38,7 @@ public class Interruptors : MonoBehaviour
     {
         {
           _Animation.SetTrigger("OFF");
-          OvrCamera.SetActive(false);
+          OvrCamera.SetActive(true);
         }  
         isOff = false; 
          
